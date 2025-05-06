@@ -119,11 +119,11 @@ const default_configuration = {
       ],
     },
     {
-      name: "dev",
-      background_url: "src/img/banners/banner_07.gif",
+      name: "scientist",
+      background_url: "src/img/banners/banner_16.gif",
       categories: [
         {
-          name: "development",
+          name: "general",
           links: [
             {
               name: "github",
@@ -132,15 +132,15 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
+              name: "pubmed",
+              url: "https://pubmed.ncbi.nlm.nih.gov/",
               icon: "circle-triangle",
               icon_color: palette.peach,
             },
             {
-              name: "stackoverflow",
-              url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
+              name: "science news",
+              url: "https://www.nature.com/news",
+              icon: "leaf",
               icon_color: palette.red,
             },
           ],
