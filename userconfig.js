@@ -119,7 +119,7 @@ const default_configuration = {
       ],
     },
     {
-      name: "scientist",
+      name: "lockin",
       background_url: "src/img/banners/banner_16.gif",
       categories: [
         {
@@ -146,7 +146,7 @@ const default_configuration = {
           ],
         },
         {
-          name: "challenges",
+          name: "coding",
           links: [
             {
               name: "kaggle",
@@ -155,50 +155,44 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
-              name: "leetcode",
-              url: "https://leetcode.com",
-              icon: "code-plus",
+              name: "gpt",
+              url: "https://chatgpt.com/",
+              icon: "brand-asana",
               icon_color: palette.peach,
             },
             {
-              name: "exercism",
-              url: "https://exercism.org",
-              icon: "code-minus",
+              name: "neocities",
+              url: "https://neocities.org/",
+              icon: "cat",
               icon_color: palette.red,
-            },
-            {
-              name: "aoc",
-              url: "https://adventofcode.com",
-              icon: "brand-linktree",
-              icon_color: palette.blue,
             },
           ],
         },
         {
-          name: "resources",
+          name: "genomics",
           links: [
             {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
+              name: "clinvar",
+              url: "https://www.ncbi.nlm.nih.gov/clinvar/",
+              icon: "dna",
               icon_color: palette.green,
             },
             {
-              name: "hackernews",
-              url: "https://news.ycombinator.com",
-              icon: "brand-redhat",
+              name: "gnomad",
+              url: "https://gnomad.broadinstitute.org/",
+              icon: "chart-histogram",
               icon_color: palette.peach,
             },
             {
-              name: "uber engineering",
-              url: "https://www.uber.com/en-GB/blog/london/engineering",
-              icon: "brand-uber",
+              name: "omim",
+              url: "https://omim.org/",
+              icon: "dna-2",
               icon_color: palette.red,
             },
             {
-              name: "netflix tech blog",
-              url: "https://netflixtechblog.com",
-              icon: "brand-netflix",
+              name: "other",
+              url: "https://clingenrecs.com/",
+              icon: "microscope",
               icon_color: palette.blue,
             },
           ],
