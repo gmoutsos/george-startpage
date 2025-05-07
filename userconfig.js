@@ -120,7 +120,7 @@ const default_configuration = {
     },
     {
       name: "lockin",
-      background_url: "src/img/banners/banner_16.gif",
+      background_url: "src/img/banners/banner-16.gif",
       categories: [
         {
           name: "general",
