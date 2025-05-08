@@ -204,12 +204,12 @@ const default_configuration = {
       background_url: "src/img/banners/banner_08.gif",
       categories: [
         {
-          name: "social media",
+          name: "socials",
           links: [
             {
-              name: "telegram",
-              url: "https://web.telegram.org",
-              icon: "brand-telegram",
+              name: "instagram",
+              url: "https://www.instagram.com/",
+              icon: "brand-instagram",
               icon_color: palette.green,
             },
             {
@@ -219,38 +219,44 @@ const default_configuration = {
               icon_color: palette.peach,
             },
             {
-              name: "reddit",
-              url: "https://www.reddit.com/r/unixporn",
-              icon: "brand-reddit",
+              name: "work",
+              url: "https://sso.dayforcehcm.com/SSOLogin.aspx",
+              icon: "calendar-clock",
+              icon_color: palette.red,
+            },
+            {
+              name: "calendar",
+              url: "https://calendar.google.com/calendar/u/0/r/week?pli=1",
+              icon: "calendar",
               icon_color: palette.red,
             },
           ],
         },
         {
-          name: "gaming",
+          name: "various",
           links: [
             {
-              name: "IGN",
-              url: "https://www.ign.com/account/playlist/library",
-              icon: "device-gamepad",
+              name: "spotify",
+              url: "https://open.spotify.com/",
+              icon: "brand-spotify",
               icon_color: palette.green,
             },
             {
-              name: "steam",
-              url: "https://store.steampowered.com",
-              icon: "brand-steam",
+              name: "choices",
+              url: "https://old.reddit.com/r/makeyourchoice/",
+              icon: "directions",
               icon_color: palette.peach,
             },
             {
-              name: "epicgames",
-              url: "https://store.epicgames.com",
-              icon: "brand-fortnite",
+              name: "icyoa",
+              url: "https://old.reddit.com/r/interactivecyoa",
+              icon: "pointer",
               icon_color: palette.red,
             },
             {
-              name: "nintendo",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
+              name: "imgchest",
+              url: "https://imgchest.com/",
+              icon: "crown",
               icon_color: palette.blue,
             },
           ],
@@ -259,9 +265,9 @@ const default_configuration = {
           name: "video",
           links: [
             {
-              name: "anilist",
-              url: "https://anilist.co/home",
-              icon: "brand-funimation",
+              name: "cineby",
+              url: "https://www.cineby.app/",
+              icon: "movie",
               icon_color: palette.green,
             },
             {
@@ -271,15 +277,15 @@ const default_configuration = {
               icon_color: palette.peach,
             },
             {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
+              name: "letterboxd",
+              url: "https://letterboxd.com/",
+              icon: "brand-letterboxd",
               icon_color: palette.red,
             },
             {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
+              name: "backloggd",
+              url: "https://backloggd.com/",
+              icon: "device-gamepad",
               icon_color: palette.blue,
             },
           ],
